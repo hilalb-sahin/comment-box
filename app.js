@@ -28,9 +28,9 @@ function handleSubmit() {
 
     div.append(ul);
 
-    emailvalue = 'email : ';
-    namevalue = 'name : ';
-    textvalue = 'text: ';
+    emailvalue = 'Email : ';
+    namevalue = 'Name : ';
+    textvalue = 'Text: ';
     
     document.getElementById('email').value = '';
     document.getElementById('name').value = '';
