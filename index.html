@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href ="index.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1> Comment Box</h1>
+    <form>
+        <input type="text" name="name" id="name" value="" placeholder="name" />
+        <input type="text" name="email" id="email" value="" placeholder="email " />
+        <input type="text" name="text" id="text" value="" placeholder="text" maxlength="140" oninput = "handleCount()"/>
+        <input type="button" name='submit' id='submit' value='submit' onclick="handleSubmit()" />
+    </form>
+    <div id="char-count"></div>
+    <div id="comment-box"></div>
+    <ul>
+        <p>
+            Name : Joshua
+        </p>
+        <p> E-mail : Joshua_josh@email.com</p>
+        <p> I'm adding my comment here! </p>
+    </ul>
+    
+</body>
+<script src= 'app.js'></script>
+</html>

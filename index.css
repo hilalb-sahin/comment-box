@@ -1,0 +1,35 @@
+body {
+ width: 100%; 
+ height: auto;  
+ min-height: 100vh;
+ font-family: 'Poppins', sans-serif;
+ background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+}    
+
+h1{
+    text-align: center;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+
+}
+
+p{
+    margin: 5px;
+    width: 90%;
+    word-wrap: break-word
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
